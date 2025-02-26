@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="balabatski.css">
+    <link rel="stylesheet" href="mystyle.css">
     <title>Course Portfolio</title>
     <style>
         body { font-family: Arial, sans-serif; text-align: center; }
@@ -28,7 +28,7 @@
     </table>
     <script>
         fetch('bals.json')
-            .then(response => response.json())
+            .then(response => courses.json())
             .then(data => {
                 let tableBody = document.getElementById("courses-table");
                 data.courses.forEach(course => {
