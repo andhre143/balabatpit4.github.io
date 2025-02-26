@@ -27,8 +27,8 @@
         <tbody id="courses-table"></tbody>
     </table>
     <script>
-        fetch('bals.json')
-            .then(response => courses.json())
+        fetch('courses.json')
+            .then(response => response.json())
             .then(data => {
                 let tableBody = document.getElementById("courses-table");
                 data.courses.forEach(course => {
