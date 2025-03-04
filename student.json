@@ -1,0 +1,13 @@
+{
+    "students": [
+    {
+    "name": "rhean andhre c balabat","age": 20,"course": "Information Technology"
+    },
+    {
+    "name": "rhean balabat gwapo","age": 22,"course": "Computer Science"
+    },
+    {
+    "name": "sigma boy","age": 19,"course": "Data Science"
+    }
+    ]
+   } 
